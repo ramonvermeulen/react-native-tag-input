@@ -1,0 +1,33 @@
+{
+  "name": "react-native-tag-input",
+  "version": "0.0.1",
+  "description": "A tag input for react-native",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "validate:eslint": "eslint 'js/**/*.js' 'example/**/*.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "react-native-tag-input"
+  },
+  "author": "Ramon Vermeulen",
+  "license": "MIT",
+  "contributors": [
+    {
+      "name": "Ramon Vermeulen",
+      "email": "ramonvermeulen@hotmail.com",
+      "url": "https://github.com/ramonvermeulen"
+    }
+  ],
+  "dependencies": {},
+  "peerDependencies": {
+    "react": "^16.8.1",
+    "react-native": ">=0.60"
+  },
+  "devDependencies": {
+    "@react-native-community/eslint-config": "0.0.6",
+    "eslint": "^6.8.0",
+    "prettier": "^1.19.1"
+  }
+}
